@@ -17,13 +17,13 @@ export default function Header() {
 
                 <li className='list-none flex space-x-3'>
                     <NavLink to={'/Contact'}>
-                        <ul className='hover:scale-90 cursor-pointer transition-all'> contact </ul>
+                        <ul className='hover-nav'> contact </ul>
                     </NavLink>
                     <NavLink to={'/About'}>
-                        <ul className='hover:scale-90 cursor-pointer transition-all'> about </ul>
+                        <ul className='hover-nav'> about </ul>
                     </NavLink>
                     <NavLink to={'/Learning'}>
-                        <ul className='hover:scale-90 cursor-pointer transition-all'> learning </ul>
+                        <ul className='hover-nav'> learning </ul>
                     </NavLink>
                 </li>
 
